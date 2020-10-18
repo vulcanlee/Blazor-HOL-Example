@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareDomain", "ShareDomain\ShareDomain.csproj", "{4B968D31-C539-4EBD-9F2C-DCF8B52380B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareDomain", "ShareDomain\ShareDomain.csproj", "{4B968D31-C539-4EBD-9F2C-DCF8B52380B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareBusiness", "ShareBusiness\ShareBusiness.csproj", "{BDEB0FB9-8602-4AE1-94CD-FFEFE2040C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareBusiness", "ShareBusiness\ShareBusiness.csproj", "{BDEB0FB9-8602-4AE1-94CD-FFEFE2040C43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModel", "EntityModel\EntityModel.csproj", "{3C412844-DDA1-485F-9FBD-FA8D0E8DE82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityModel", "EntityModel\EntityModel.csproj", "{3C412844-DDA1-485F-9FBD-FA8D0E8DE82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseEmpty", "DatabaseEmpty\DatabaseEmpty.csproj", "{C20F0A50-5FF4-4002-8E13-258EE99B0C4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3C412844-DDA1-485F-9FBD-FA8D0E8DE82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C412844-DDA1-485F-9FBD-FA8D0E8DE82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C412844-DDA1-485F-9FBD-FA8D0E8DE82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20F0A50-5FF4-4002-8E13-258EE99B0C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20F0A50-5FF4-4002-8E13-258EE99B0C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20F0A50-5FF4-4002-8E13-258EE99B0C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20F0A50-5FF4-4002-8E13-258EE99B0C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
