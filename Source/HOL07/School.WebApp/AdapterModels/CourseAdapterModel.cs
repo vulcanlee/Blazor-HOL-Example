@@ -1,0 +1,30 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace School.WebApp.AdapterModels
+{
+    public class CourseAdapterModel
+    {
+        public int CourseId { get; set; }
+        [Required(ErrorMessage = "課程名稱 欄位必須要輸入值")]
+        public string Title { get; set; }
+        public int Credits { get; set; }
+        public int DepartmentId { get; set; }
+
+        public string DepartmentName { get; set; } = "";
+
+        public DepartmentAdapterModel Department { get; set; }
+
+
+        public bool IsExist()
+        {
+            if (string.IsNullOrEmpty(Title))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    }
+}
