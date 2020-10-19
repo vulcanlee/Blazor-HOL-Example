@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityModel", "EntityModel\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseEmpty", "DatabaseEmpty\DatabaseEmpty.csproj", "{F5CDD814-C593-4E2E-8C02-AA9B04505158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.WebApp", "School.WebApp\School.WebApp.csproj", "{0780A1BF-6CC0-43F3-B262-C1744CF91A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.WebApp", "School.WebApp\School.WebApp.csproj", "{0780A1BF-6CC0-43F3-B262-C1744CF91A4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,11 +2,14 @@
 {
     using AutoMapper;
     using EntityModel.Models;
+    using School.WebApp.AdapterModels;
 
     public class AutoMapping : Profile
     {
         public AutoMapping()
         {
+            CreateMap<Department, DepartmentAdapterModel>();
+            CreateMap<DepartmentAdapterModel, Department>();
         }
     }
 }
